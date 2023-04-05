@@ -1,0 +1,26 @@
+@keyframes colorAnimation {
+    0% {
+      background-color: #ff6b81;
+    }
+    25% {
+      background-color: #8f94fb;
+    }
+    50% {
+      background-color: #4ac3c9;
+    }
+    75% {
+      background-color: #ffcc5c;
+    }
+    100% {
+      background-color: #ff6b81;
+    }
+  }
+  
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colorAnimation 10s linear infinite;
+  }
+  
